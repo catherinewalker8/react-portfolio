@@ -38,7 +38,7 @@ const HomePage = () => {
           <img src="src/assets/woodland-management.JPG" alt="Woodland Management Tool" />
         </div>
         <div className="desc">
-          <h3>Woodland Management Priorities Tool</h3>
+          <h3>Woodland Priorities Tool</h3>
           <p>Explore how to manage woodland <br /> based on priority aims.</p>
         </div>
       </a>
