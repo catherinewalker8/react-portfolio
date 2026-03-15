@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 body, html {
   margin: 0;
   padding: 0;
@@ -155,4 +159,83 @@ body, html {
 
 footer{
   margin: 30px;
+}
+
+.contact-container{
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  width:100%;
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.contact-card{
+  flex: 1;
+  min-width: 450px;
+  background:#2a2c2a;
+  border:3px solid #333;
+  padding: 40px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.contact-card h2{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap:15px;
+}
+
+input, textarea{
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  width: 100%;
+}
+
+textarea{
+  min-height: 120px;
+  resize: vertical;
+}
+
+button{
+  background:#75b675;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover{
+  background: #16a34a;
+}
+
+.contact-card a{
+  display:block;
+  color:#22c55e;
+  text-decoration:none;
+  margin-bottom:10px;
+  font-weight:600;
+}
+
+.contact-card a:hover{
+  text-decoration:underline;
+}
+
+@media (max-width:900px){
+
+.contact-container{
+    flex-direction:column;
+}
+
 }

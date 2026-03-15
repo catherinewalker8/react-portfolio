@@ -2,8 +2,8 @@ import React from 'react';
 
 const pages = [
   { name: 'Home', key: 'home' },
-  { name: 'About', key: 'about' },
-  { name: 'Contact', key: 'contact' },
+  // { name: 'About', key: 'about' },
+  { name: 'Contact', key: 'contact' }
 ]
 
 const NavBar = ({selectedPage, onSetPage}) => {
