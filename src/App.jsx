@@ -9,8 +9,6 @@ function App() {
 
   const [page, setPage] = useState('home');
 
-  // TODO: How does the Layout component know which page to render?
-
   return (
     <Layout selectedPage={page} onSetPage={setPage}>
 

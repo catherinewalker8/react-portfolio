@@ -1,19 +1,33 @@
-const NavBar = () => {
+import React from 'react';
+
+const pages = [
+  { name: 'Home', key: 'home' },
+  { name: 'About', key: 'about' },
+  { name: 'Contact', key: 'contact' },
+]
+
+const NavBar = ({selectedPage, onSetPage}) => {
+
+  const renderPageLinks = () => {
+        
+    return pages.map(page => (
+       <li
+          key={page.key}
+          onClick={() => onSetPage(page.key)}
+        >
+          {page.name}
+        </li>
+    ));
+  };
+
   return (
-    <nav style={styles.navbar}>
-        <h1>My Amazing App</h1>
-      </nav>
+    <nav>
+      <ul>
+        {renderPageLinks()}
+      </ul>
+      <h1>Catherine Walker</h1>
+    </nav>
   )
 }
-
-// Inline styles for simplicity
-const styles = {  
-  navbar: {
-    backgroundColor: '#333',
-    color: '#fff',
-    padding: '10px',
-    textAlign: 'center',
-  },
-};
 
 export default NavBar
