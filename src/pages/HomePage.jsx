@@ -45,7 +45,7 @@ const HomePage = () => {
 
             <a href='https://github.com/catherinewalker8/readme-generator' className="gallery-item">
         <div className="image-container">
-          <img src="/assets/read-me.JPG" alt="ReadME Generator" />
+          <img src="/assets/read-me.jpg" alt="ReadME Generator" />
         </div>
         <div className="desc">
           <h3>ReadMe Generator</h3>
