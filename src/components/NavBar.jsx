@@ -13,6 +13,7 @@ const NavBar = ({selectedPage, onSetPage}) => {
     return pages.map(page => (
        <li
           key={page.key}
+          className={`nav-item ${page.key === selectedPage ? 'active' : ''}`}
           onClick={() => onSetPage(page.key)}
         >
           {page.name}
@@ -20,14 +21,20 @@ const NavBar = ({selectedPage, onSetPage}) => {
     ));
   };
 
-  return (
-    <nav>
-      <ul>
-        {renderPageLinks()}
-      </ul>
+return (
+  <nav className='navbar'>
+    <div className='nav-title'>
       <h1>Catherine Walker</h1>
-    </nav>
-  )
+      <p className="nav-tagline">
+        Building software for <span className="text-people">people</span> and the <span className="text-planet">planet</span>.
+      </p>
+    </div>
+    
+    <ul className='nav-links-list'>
+      {renderPageLinks()}
+    </ul>
+  </nav>
+)
 }
 
 export default NavBar
