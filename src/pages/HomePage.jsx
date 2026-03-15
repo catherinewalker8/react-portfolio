@@ -5,7 +5,7 @@ const HomePage = () => {
     <div className="gallery">
       <a href='https://blog-full-stack-co1v.onrender.com/' className="gallery-item">
         <div className="image-container">
-          <img src="./src/assets/all-about-pets.JPG" alt="All About Pets Blog" />
+          <img src="/assets/all-about-pets.JPG" alt="All About Pets Blog" />
         </div>
         <div className="desc">
           <h3>Pet Blog</h3>
@@ -15,7 +15,7 @@ const HomePage = () => {
 
       <a href='https://to-do-list-d4u0.onrender.com/' className="gallery-item">
         <div className="image-container">
-          <img src='./src/assets/to-do-list.JPG' alt="To-do List" />
+          <img src='/assets/to-do-list.JPG' alt="To-do List" />
         </div>
         <div className="desc">
           <h3>To-do List</h3>
@@ -25,7 +25,7 @@ const HomePage = () => {
 
       <a href='https://catherinewalker8.github.io/code-ninjas-unleashed-cw/' className="gallery-item">
         <div className="image-container">
-          <img src="./src/assets/pokemon-weather.JPG" alt="Pokemon and Weather" />
+          <img src="/assets/pokemon-weather.JPG" alt="Pokemon and Weather" />
         </div>
         <div className="desc">
           <h3>Weather x Pokemon</h3>
@@ -35,7 +35,7 @@ const HomePage = () => {
 
       <a href='https://catherinewalker8.github.io/woodland-priorities-tool--bootstrap/index.html' className="gallery-item">
         <div className="image-container">
-          <img src="./src/assets/woodland-management.JPG" alt="Woodland Management Tool" />
+          <img src="/assets/woodland-management.JPG" alt="Woodland Management Tool" />
         </div>
         <div className="desc">
           <h3>Woodland Priorities Tool</h3>
@@ -45,7 +45,7 @@ const HomePage = () => {
 
             <a href='https://github.com/catherinewalker8/readme-generator' className="gallery-item">
         <div className="image-container">
-          <img src="./src/assets/read-me.JPG" alt="ReadME Generator" />
+          <img src="/assets/read-me.JPG" alt="ReadME Generator" />
         </div>
         <div className="desc">
           <h3>ReadMe Generator</h3>
@@ -55,7 +55,7 @@ const HomePage = () => {
 
             <a href='https://catherinewalker8.github.io/personal-portfolio/' className="gallery-item">
         <div className="image-container">
-          <img src="./src/assets/portfolio.JPG" alt="My First Portfolio" />
+          <img src="/assets/portfolio.JPG" alt="My First Portfolio" />
         </div>
         <div className="desc">
           <h3>Personal Portfolio</h3>
