@@ -3,45 +3,65 @@ import React from 'react';
 const HomePage = () => {
   return (
     <div className="gallery">
-      <div className="gallery-item">
+      <a href='https://blog-full-stack-co1v.onrender.com/' className="gallery-item">
         <div className="image-container">
-          <img src="img_5terre.jpg" alt="Cinque Terre" />
+          <img src="src/assets/all-about-pets.JPG" alt="All About Pets Blog" />
         </div>
         <div className="desc">
-          <h3>Oasis System</h3>
-          <p>Backend management tools.</p>
+          <h3>Pet Blog</h3>
+          <p>For interaction between pet owners.</p>
         </div>
-      </div>
+      </a>
 
-      <div className="gallery-item">
+      <a href='https://to-do-list-d4u0.onrender.com/' className="gallery-item">
         <div className="image-container">
-          <img src="img_forest.jpg" alt="Forest" />
+          <img src='src/assets/to-do-list.JPG' alt="To-do List" />
         </div>
         <div className="desc">
-          <h3>Forest Monitor</h3>
-          <p>Data visualization for nature.</p>
+          <h3>To-do List</h3>
+          <p>Plan and organise your life.</p>
         </div>
-      </div>
+      </a>
 
-      <div className="gallery-item">
+      <a href='https://catherinewalker8.github.io/code-ninjas-unleashed-cw/' className="gallery-item">
         <div className="image-container">
-          <img src="img_lights.jpg" alt="Northern Lights" />
+          <img src="src/assets/pokemon-weather.JPG" alt="Pokemon and Weather" />
         </div>
         <div className="desc">
-          <h3>Sky Tracker</h3>
-          <p>Real-time atmosphere mapping.</p>
+          <h3>Weather x Pokemon</h3>
+          <p>Discover which Pokemon is causing <br /> the weather where you are.</p>
         </div>
-      </div>
+      </a>
 
-      <div className="gallery-item">
+      <a href='https://catherinewalker8.github.io/woodland-priorities-tool--bootstrap/index.html' className="gallery-item">
         <div className="image-container">
-          <img src="img_mountains.jpg" alt="Mountains" />
+          <img src="src/assets/woodland-management.JPG" alt="Woodland Management Tool" />
         </div>
         <div className="desc">
-          <h3>Summit API</h3>
-          <p>High-altitude logic systems.</p>
+          <h3>Woodland Management Priorities Tool</h3>
+          <p>Explore how to manage woodland <br /> based on priority aims.</p>
         </div>
-      </div>
+      </a>
+
+            <a href='https://github.com/catherinewalker8/readme-generator' className="gallery-item">
+        <div className="image-container">
+          <img src="src/assets/read-me.JPG" alt="ReadME Generator" />
+        </div>
+        <div className="desc">
+          <h3>ReadMe Generator</h3>
+          <p>Automatically create a README.md file <br /> for github creations.</p>
+        </div>
+      </a>
+
+            <a href='https://catherinewalker8.github.io/personal-portfolio/' className="gallery-item">
+        <div className="image-container">
+          <img src="src/assets/portfolio.JPG" alt="My First Portfolio" />
+        </div>
+        <div className="desc">
+          <h3>Personal Portfolio</h3>
+          <p>My first software project - <br />a personal portfolio.</p>
+        </div>
+      </a>
     </div>
   );
 };
